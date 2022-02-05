@@ -6,10 +6,12 @@ body{background-color: rgb(34, 34, 34);}
 header h1{ 
     color:rgb(252, 240, 76);
     font-family: Arial;
-    margin: 0px 0px 0px 700px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
 }
 header img{
-    width: 20%;
-    margin: 0px 0px 0px 700px;
+    width: 12%;
+    margin: 50px 0px 0px 830px;
+    
 }
 
