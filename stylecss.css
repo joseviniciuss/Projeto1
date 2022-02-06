@@ -2,14 +2,16 @@ body{background-color: rgb(34, 34, 34);
     font-family: 'Quicksand', sans-serif;
 }
 header h1{ 
-    color:rgb(252, 240, 76);
-    margin: 0px 0px 0px 0px;
+    color:rgb(211, 200, 44);
+    margin: 10px 0px 0px 0px;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    font-size: 16pt;
+    text-transform: uppercase;
 }
 header img{
-    width: 12%;
-    margin: 50px 0px 0px 830px;
+    width: 20%;
+    margin: 50px 0px 0px 755px;
     
 }
 main{ display: flex;
