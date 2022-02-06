@@ -1,17 +1,47 @@
-body{background-color: rgb(34, 34, 34);}
-
-
-
-
+body{background-color: rgb(34, 34, 34);
+    font-family: 'Quicksand', sans-serif;
+}
 header h1{ 
     color:rgb(252, 240, 76);
-    font-family: Arial;
     margin: 0px 0px 0px 0px;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 header img{
     width: 12%;
     margin: 50px 0px 0px 830px;
     
 }
+main{ display: flex;
+}
+ 
+main section{
+    width: 50%;
+}
 
+.sectioninput{
+}
+
+.inputmsm{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 40px 0 0 740px;
+
+}
+.inputmsm input{
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+.inputmsm button{
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(0deg 0% 100% / 90%);
+    text-transform: uppercase;
+    cursor: pointer;
+}
